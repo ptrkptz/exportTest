@@ -1,0 +1,28 @@
+install
+ - node.js
+ - atom
+ - git bash
+
+restart
+
+git config --global user.email "ptrkptz@gmail.com"
+git config --global user.name "Patrick Peitz"
+
+
+npm install -g create-react-app
+	install the 'create-react-app'
+
+clone the git repository
+	git clone https://github.com/ptrkptz/exporttest.git
+		in c:/Users/Patrick/git
+
+initiate react app
+	create-react-app exporttest
+		in c:/Users/Patrick/git
+	This takes some time
+
+attempt to open 
+	cd exporttest
+	npm start
+
+
