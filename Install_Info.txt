@@ -25,4 +25,13 @@ attempt to open
 	cd exporttest
 	npm start
 
-
+attempt to START react
+	npm start
+		Error: 'react-scripts' is not recognized as an internal or external command, operable program or batch file.
+			Solution: Just run npm install before npm start
+	npm install
+		Error: npm ERR! code SELF_SIGNED_CERT_IN_CHAIN
+			Solution: update the config
+				npm config set strict-ssl false
+	
+	npm install (again)
