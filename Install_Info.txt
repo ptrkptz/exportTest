@@ -35,3 +35,4 @@ attempt to START react
 				npm config set strict-ssl false
 	
 	npm install (again)
+	npm start (again)
